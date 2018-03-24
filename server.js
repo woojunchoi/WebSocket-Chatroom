@@ -13,4 +13,9 @@ app.use(express.static(__dirname+'/public'))
 const io = socket(server);
 io.on('connection', (socket) => {
     console.log('socket connected', socket.id)
+
+    socket.on('chat', function(data) {
+        //send data to all connected sockets. thats why we use io.sockets
+        io.sockets.emit('chat',data)
+    })
 })
