@@ -12,5 +12,5 @@ app.use(express.static(__dirname+'/public'))
 
 const io = socket(server);
 io.on('connection', (socket) => {
-    console.log('socket connected')
+    console.log('socket connected', socket.id)
 })
