@@ -21,6 +21,4 @@
 
 
 ##### DEMO IMAGE: 
-![alt text](/first.png "Basic")
-
 ![alt text](/second.png "When in action")
