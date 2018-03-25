@@ -21,4 +21,4 @@
 
 
 ##### DEMO IMAGE: 
-![alt text](/second.png "When in action")
+![alt text](/first.png "When in action")
